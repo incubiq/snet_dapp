@@ -1,0 +1,16 @@
+{
+    "blockchain_enabled": true,
+    "blockchain_network_selected": "sepolia",
+    "daemon_end_point": "0.0.0.0:7001",
+    "daemon_group_name": "default_group",
+    "ipfs_end_point": "http://ipfs.singularitynet.io:80",
+    "organization_id": "OSAIS_ID",
+    "service_id": "AI_CALL",
+    "passthrough_enabled": true,
+    "passthrough_endpoint": "http://127.0.0.1:8011",
+    "payment_channel_cert_path": "/var/lib/etcd/cfssl/client.pem",
+    "payment_channel_ca_path": "/var/lib/etcd/cfssl/ca.pem",
+    "payment_channel_key_path": "/var/lib/etcd/cfssl/client-key.pem",
+    "log": {"level": "debug", "output": {"type": "stdout"}}
+  }
+  

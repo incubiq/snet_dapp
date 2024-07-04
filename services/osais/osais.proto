@@ -1,0 +1,16 @@
+syntax = "proto3";
+ 
+package osais;
+ 
+message Query {
+    string query = 1;
+    string worker = 2;
+}
+ 
+message Answer {
+    string answer = 1;
+}
+ 
+service postOSAIS {
+    rpc call(Query) returns (Answer) {}
+}

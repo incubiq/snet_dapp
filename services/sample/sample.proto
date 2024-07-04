@@ -1,0 +1,18 @@
+syntax = "proto3";
+ 
+package example;
+ 
+message Query {
+    string query = 1;
+    bool _type = 2;
+}
+ 
+message Answer {
+    string answer = 1;
+    string answer2 = 2;
+    string answer3 = 3;
+}
+ 
+service Example {
+    rpc call(Query) returns (Answer) {}
+}
